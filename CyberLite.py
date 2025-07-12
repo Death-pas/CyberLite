@@ -10,7 +10,9 @@ from pystyle import *
 import socket
 
 colorama.init(convert=True, autoreset=True)
-colorama.just_fix_windows_console()
+
+
+
 import requests
 
 def buildlogger(webhook):
